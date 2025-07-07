@@ -1,9 +1,9 @@
 version: '3.2'
 
 services:
-  gryvapaperserver:
-    image: gryvapaperserver:0.1.23
-    container_name: 'gryvapaperserver'
+  paperserver:
+    image: paperserver:0.1.23
+    container_name: 'paperserver'
     ports:
       - 25565:25565
     volumes:

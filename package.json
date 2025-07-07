@@ -1,5 +1,5 @@
 {
-  "name": "GRYVAPaperServer",
+  "name": "PaperServer",
   "scripts": {
     "prepare": "husky"
   },

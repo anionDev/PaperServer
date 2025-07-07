@@ -20,8 +20,8 @@
 				]
 			},
 			{
-				"label": "GRYVAPaperServer: Run example",
-				"command": "python GRYVAPaperServer/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile/RunExample.py",
+				"label": "PaperServer: Run example",
+				"command": "python PaperServer/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile/RunExample.py",
 				"args": [],
 				"type": "shell",
 				"options": {

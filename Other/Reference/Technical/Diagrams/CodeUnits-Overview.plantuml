@@ -1,11 +1,11 @@
 @startuml CodeUnits-Overview
-title CodeUnits of GRYVAPaperServer
+title CodeUnits of PaperServer
 
-[GRYVAPaperServer]
-note as GRYVAPaperServerNote
-  GRYVAPaperServer is a docker-image for simply running a Paper-server in a docker-container.
+[PaperServer]
+note as PaperServerNote
+  PaperServer is a docker-image for simply running a Paper-server in a docker-container.
 end note
-GRYVAPaperServer .. GRYVAPaperServerNote
+PaperServer .. PaperServerNote
 
 
 @enduml

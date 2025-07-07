@@ -1,1 +1,1 @@
-# GRYVAPaperServer-reference
+# PaperServer-reference
