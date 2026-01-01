@@ -1,6 +1,7 @@
-import requests
 from pathlib import Path
-from ScriptCollection.TasksForCommonProjectStructure import TasksForCommonProjectStructure
+import requests
+from ScriptCollection.ScriptCollectionCore import ScriptCollectionCore
+from ScriptCollection.TFCPS.TFCPS_Tools_General import TFCPS_Tools_General
 
 
 def get_latest_version_number(timeout_in_seconds: int) -> str:
@@ -27,10 +28,11 @@ def get_latest_paper_version() -> str:
     latest_build_number = get_latest_build_number(latest_version_number, timeout_in_seconds)
     return f"{latest_version_number};{latest_build_number}"
 
-
 def update_dependencies():
     script_file = str(Path(__file__).absolute())
-    TasksForCommonProjectStructure().update_dependency_in_resources_folder(script_file, "Paper", get_latest_paper_version())
+    sc = ScriptCollectionCore()
+    TFCPS_Tools_General(sc).update_dependency_in_resources_folder(script_file, "Paper", get_latest_paper_version())
+
 
 
 if __name__ == "__main__":
