@@ -1,5 +1,5 @@
 ARG image_debian
-FROM ${image_debian}:stable-20251208-slim
+FROM ${image_debian}
 
 ARG TargetEnvironmentType
 ARG Version
