@@ -7,16 +7,16 @@ tasks:
     silent: true
     dir: "."
     cmds:
-      - scbuildcodeunits
+      - "scbuildcodeunits {{.CLI_ARGS}}"
     aliases:
       - basebuildallcodeunits
       - bb
 
-  GryvapaperserverRunExample:
-    desc: "GRYVAPaperServer: Run example"
+  PaperserverRunExample:
+    desc: "PaperServer: Run example"
     silent: true
     dir: "."
     cmds:
-      - python GRYVAPaperServer/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile/RunExample.py
+      - "python PaperServer/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile/RunExample.py {{.CLI_ARGS}}"
     aliases:
-      - gryvapaperserverrunexample
+      - paperserverrunexample

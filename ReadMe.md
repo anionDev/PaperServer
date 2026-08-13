@@ -1,8 +1,8 @@
-# GRYVAPaperServer
+# PaperServer
 
 ## General
 
-[GRYVAPaperServer](https://github.com/anionDev/GRYVAPaperServer) is a docker-image for simply running a [Paper](https://papermc.io)-server in a docker-container.
+[PaperServer](https://github.com/anionDev/PaperServer) is a docker-image for simply running a [Paper](https://papermc.io)-server in a docker-container.
 
 ## Development
 
@@ -20,4 +20,4 @@ This repository applies the [CommonProjectStructure](https://projects.aniondev.d
 
 ## License
 
-See [License.txt](https://github.com/anionDev/GRYVAPaperServer/blob/main/License.txt) for license-information.
+See [License.txt](https://github.com/anionDev/PaperServer/blob/main/License.txt) for license-information.

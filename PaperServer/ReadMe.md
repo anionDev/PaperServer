@@ -1,4 +1,4 @@
-# GRYVAPaperServer
+# PaperServer
 
 ## Development-state
 
@@ -8,7 +8,7 @@ The underlying [Paper](https://papermc.io)-server will be developed actively.
 
 ## Purpose
 
-[GRYVAPaperServer](https://projects.aniondev.de/PublicProjects/GRYVAImages/GRYVAPaperServer) is a docker-image for simply running a [Paper](https://papermc.io)-server in a docker-container.
+[PaperServer](https://projects.aniondev.de/PublicProjects/Images/PaperServer) is a docker-image for simply running a [Paper](https://papermc.io)-server in a docker-container.
 
 ## Usage
 
@@ -31,4 +31,4 @@ None of these environment-variables are required.
 
 ### Example
 
-See the [minimal example `docker-compose.yml`](https://projects.aniondev.de/PublicProjects/GRYVAImages/GRYVAPaperServer/-/blob/main/GRYVAPaperServer/Other/Examples/MinimalDockerComposeFile/docker-compose.yml) for an example how to use this image.
+See the [minimal example `docker-compose.yml`](https://projects.aniondev.de/PublicProjects/Images/PaperServer/-/blob/main/PaperServer/Other/Examples/MinimalDockerComposeFile/docker-compose.yml) for an example how to use this image.
